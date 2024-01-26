@@ -1,0 +1,18 @@
+nav {
+    display: flex;
+    background-color: goldenrod;
+}
+
+nav a {
+  background-color: royalblue;
+  color: mediumorchid;
+  padding: 0.25em 0.5em;
+  margin: 2em;
+
+  /* try different values - e.g. 3s */
+  transition: background-color 0.7s;
+}
+
+nav a:hover {
+  background-color: orange;
+}
